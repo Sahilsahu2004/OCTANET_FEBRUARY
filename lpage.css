@@ -6,18 +6,17 @@ h1{
     font-size: 70px;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 marquee{
     font-size: x-large;
     background-color: #a70ec2;
     color:aliceblue
 }
 
-summary{
-    font-size: 30px;
-}
-li{
-    font-size: 30px;
-}
+
+
 button{
      background-color: blue;
      color:whitesmoke;
@@ -26,25 +25,70 @@ button{
      margin: 0,auto;
      
 }
-#rows{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(241, 238, 234);
 
-    
-
-}
-#rows div{
-    width: 25%;
-    margin: 10px;
-    font-size: 25px;
-}
-.sign{
-    color: #5671f8;
-
-}
 hr{
     margin:0px;
     padding: auto;
+}
+nav{
+    background-color: rgb(249, 255, 255);
+    width: 100%;
+    height: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ol{
+    display: block;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 35px;
+    font-size: 20px;
+}
+h2{
+    font-size:35px;
+    text-align: center;
+}
+p{
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', 'Times', 'serif';
+}
+#h2{
+    font-size: 30px;
+    padding-left: 20px;
+    display: inline;
+}
+img{
+    
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.intro{
+    flex: 1;
+}
+#about{
+    text-align: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style:groove;
+    max-width: 100%;
+
+}
+.para{
+    text-align: center;
 }
