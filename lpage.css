@@ -5,6 +5,7 @@ h1{
     margin: 25px;
     font-size: 70px;
     opacity: 90%;
+    text-decoration: underline rgb(0, 0, 0);
 
 }
 body{
@@ -120,7 +121,7 @@ img{
     margin: 0% auto;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 10px;
     height: 40px;
     max-width: 500px;
     justify-content: center;
@@ -137,7 +138,7 @@ img{
     border: 1px solid #151415;
     border-radius: 20px;
     border: none;
-    padding: 10px 15px;
+    padding: 5px 10px;
     cursor: pointer;
     font-size: 16px;
     font-style: oblique;
@@ -148,7 +149,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid blanchedalmond;
     border-radius: 20px;
 }
@@ -186,7 +187,25 @@ img{
     cursor: pointer;
 }
 .hor{
-    margin: 20px;
+    
     background-color: aliceblue;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  } 
     
