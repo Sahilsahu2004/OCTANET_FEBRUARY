@@ -1,25 +1,26 @@
 h1{
-    color: #9952a5;
+    color: #b81780;
     text-align: center;
     padding: 25px;
     margin: 25px;
     font-size: 70px;
+    opacity: 90%;
 
 }
 body{
     background-image: url(img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-
+    background-attachment:scroll;
 }
 html{
     scroll-behavior: smooth;
 }
-marquee{
+.gradient{
+    background-color: #b81780;
     font-size: x-large;
-    background-color: #a70ec2;
-    color:aliceblue
+    color:aliceblue;
+    opacity: 90%;
 }
 .search__input.field__input,
 .search-modal__form .field:after{
@@ -31,6 +32,7 @@ marquee{
 hr{
     margin:0px;
     padding: auto;
+    opacity: 20%;
 }
 nav{
     background-color: rgb(255, 255, 255);
@@ -82,6 +84,7 @@ img{
     align-items: center;
     justify-content: space-around;
     border: 1px solid blanchedalmond;
+    border-radius: 20px;
     gap: 5rem;
 }
 .intro{
@@ -93,6 +96,7 @@ img{
 .img2{
     display: flex;
     border: 1px solid blanchedalmond;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     border-style:groove;
@@ -144,7 +148,9 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
     border: 1px solid blanchedalmond;
+    border-radius: 20px;
 }
 .img3{
     max-width: 600px;
@@ -152,5 +158,35 @@ img{
 }
 #p3{
     font-style: oblique;
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+
+}
+.studio{
+    width:300px;
+    padding: 5px;
+    text-align: center;
+}
+.studip img{
+    display: block;
+    margin:0 auto;
+    max-width: 100px;
+    
+}
+.studio:not(:last-child){
+    margin-right: 10px;
+}
+.std{
+    font-style: oblique;
+    color: blanchedalmond;
+    font-size: 30px;
+    cursor: pointer;
+}
+.hor{
+    margin: 20px;
+    background-color: aliceblue;
 }
     
