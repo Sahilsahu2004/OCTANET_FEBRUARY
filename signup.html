@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Port ai Sign-up</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom,#d4a8ee,#f8de95);
+            background-size: 100% 100%;
+            height: 100vh;
+            margin: 0;
+        }
+        .Box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: auto;
+            background-color: #ffffff;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .sign-up{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .butt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #signbut{
+            color: rgb(247, 243, 243);
+            background-color: rgb(6, 165, 6);
+            border-radius: 5px;
+            font-style:bold;
+            font-size: 18px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-top: 12px;
+        }
+        #email{
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #name{
+            border-radius: 5px;
+            font-size: 15px;
+            margin-bottom: 12px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #passw{
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #link{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        p{
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Box">
+        <div class="sign-up">
+        <input type="text" placeholder="Full Name" id="name" inputmode="latin">
+    </div>
+    <div class="sign-up">
+        <input type="email" placeholder="Email" id="email" inputmode="email">
+    </div>
+    <div class="sign-up">
+        <input type="password" placeholder="Set Your Password" id="passw" inputmode="numeric">
+    </div>
+    <div class="butt">
+       <a href="lpage.html" ><button id="signbut" >Sign-up</button></a>
+    </div>
+   
+    <hr style="color: black;">
+
+    <p>Or sign in with:</p>
+    <button style="display: flex; align-items: center; border: none; background-color: white; padding: 10px; cursor: pointer;">
+        <img src="google.png" alt="Google Icon" style="width: 24px; height: 24px; margin-right: 8px;">
+        
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/sahil-kumar-sahu-b62251293/"><i  id="link" class="fa-brands fa-linkedin fa-2xl" style="color: #1d92ed;"></i></a>
+        <i  id="face" class="fa-brands fa-facebook fa-2xl" style="color: #1d67e7;"></i>
+        
+    </div>
+
+</div>
+
+
+    
+</body>
+</html>
